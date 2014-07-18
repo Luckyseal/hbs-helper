@@ -37,3 +37,5 @@ cd example
 npm install
 npm start
 ```
+
+Open your browser and visit `http://localhost:3008/`
