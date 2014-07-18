@@ -1,17 +1,19 @@
 {
   "name": "AmazeUIWidgetExample",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
+    "amui-hbs-helper": "latest",
     "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
+    "express": "~4.0.0",
     "hbs": "~2.7.0",
-    "less-middleware": "1.0.x"
+    "less-middleware": "1.0.x",
+    "morgan": "~1.0.0",
+    "errorhandler": "^1.1.1"
   }
 }

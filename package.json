@@ -1,6 +1,6 @@
 {
   "name": "amui-hbs-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "helper",
   "main": "index.js",
   "scripts": {
@@ -13,13 +13,15 @@
   "keywords": [
     "AMUI",
     "AmazeUI",
-    "Handlevars",
+    "handlebars",
     "AllMobilize"
   ],
-  "author": "minwe",
+  "author": "minwe <minwe@yunshipei.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Minwe/amui-hbs-helper/issues"
   },
-  "homepage": "https://github.com/Minwe/amui-hbs-helper"
+  "homepage": "https://github.com/Minwe/amui-hbs-helper",
+  "dependencies": {
+  }
 }
