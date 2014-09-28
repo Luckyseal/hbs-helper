@@ -1,4 +1,3 @@
-// demo data
 module.exports = {
     header: {
         "content": {
@@ -7,62 +6,147 @@ module.exports = {
     },
 
     menu: {
-        "theme": "dropdown9",
-
         "options": {
-            "cols": "1"
+            "cols": "1",
+            "toggleIcon": "list"
         },
         "content": [
             {
-                "className": "",
-                "subCols": 1,
                 "link": "##",
-                "title": "导航",
-                "subMenuClassName": "",
+                "title": "公司",
+                "subCols": 2,
+                "channelLink": "进入栏目 »",
                 "subMenu": [
                     {
-                        "className": "",
                         "link": "##",
                         "title": "公司"
                     },
                     {
-                        "className": "",
                         "link": "##",
                         "title": "人物"
                     },
                     {
-                        "className": "",
+                        "link": "##",
+                        "title": "趋势"
+                    },
+                    {
+                        "link": "##",
+                        "title": "投融资"
+                    },
+                    {
                         "link": "##",
                         "title": "创业公司"
                     },
                     {
-                        "className": "",
-                        "link": "##",
-                        "title": "创业人物"
-                    },
-                    {
-                        "className": "",
-                        "link": "##",
-                        "title": "公司"
-                    },
-                    {
-                        "className": "",
-                        "link": "##",
-                        "title": "人物"
-                    },
-                    {
-                        "className": "",
-                        "link": "##",
-                        "title": "创业公司"
-                    },
-                    {
-                        "className": "",
                         "link": "##",
                         "title": "创业人物"
                     }
                 ]
+            },
+            {
+                "link": "##",
+                "title": "人物",
+                "subCols": 3,
+                "subMenu": [
+                    {
+                        "link": "##",
+                        "title": "公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "人物"
+                    },
+                    {
+                        "link": "##",
+                        "title": "趋势"
+                    },
+                    {
+                        "link": "##",
+                        "title": "投融资"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业人物"
+                    }
+                ]
+            },
+            {
+                "link": "#c3",
+                "title": "趋势",
+                "subCols": 4,
+                "channelLink": "泥煤 »",
+                "subMenu": [
+                    {
+                        "link": "##",
+                        "title": "公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "人物"
+                    },
+                    {
+                        "link": "##",
+                        "title": "趋势"
+                    },
+                    {
+                        "link": "##",
+                        "title": "投融资"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业人物"
+                    }
+                ]
+            },
+            {
+                "link": "##",
+                "title": "投融资",
+                "subCols": 3,
+                "subMenu": [
+                    {
+                        "link": "##",
+                        "title": "公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "人物"
+                    },
+                    {
+                        "link": "##",
+                        "title": "趋势"
+                    },
+                    {
+                        "link": "##",
+                        "title": "投融资"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业公司"
+                    },
+                    {
+                        "link": "##",
+                        "title": "创业人物"
+                    }
+                ]
+            },
+            {
+                "link": "##",
+                "title": "创业公司"
+            },
+            {
+                "link": "##",
+                "title": "创业人物"
             }
-        ]
+        ],
+        "theme": "dropdown1"
     },
 
     slider: {
@@ -182,6 +266,28 @@ module.exports = {
                 }
             ]
         }
+    },
+
+    tabs: {
+        "options": {
+            "cols": "3"
+        },
+        "content": [
+            {
+                "title": "青春",
+                "content": "【青春】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。",
+                "active": 1
+            },
+            {
+                "title": "彩虹",
+                "content": "【彩虹】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。"
+            },
+            {
+                "title": "歌唱",
+                "content": "【歌唱】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。"
+            }
+        ],
+        "theme": "default"
     },
 
     footer: {
