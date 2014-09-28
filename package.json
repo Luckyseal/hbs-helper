@@ -1,6 +1,6 @@
 {
   "name": "amui-hbs-helper",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Amaze UI widget partials and helpers.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Minwe/amui-hbs-helper.git"
+    "url": "https://github.com/amazeui/hbs-helper"
   },
   "keywords": [
     "AMUI",
@@ -19,9 +19,10 @@
   "author": "minwe <minwe@yunshipei.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Minwe/amui-hbs-helper/issues"
+    "url": "https://github.com/amazeui/hbs-helper/issues"
   },
-  "homepage": "https://github.com/Minwe/amui-hbs-helper",
+  "homepage": "http://amazeui.org/widgets",
   "dependencies": {
+    "hbs": "~2.7.0"
   }
 }
