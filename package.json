@@ -1,6 +1,6 @@
 {
   "name": "amui-hbs-helper",
-  "version": "1.0.2",
+  "version": "2.2.0",
   "description": "Amaze UI widget partials and helpers.",
   "main": "index.js",
   "scripts": {
